@@ -5,7 +5,7 @@
   roles:
     - common
     - building_server
-    - archiver
+
 
 - name: run configuration
   hosts: runner
@@ -13,5 +13,4 @@
 
   roles:
     - common
-    - archiver
     - running_server
